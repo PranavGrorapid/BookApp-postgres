@@ -1,0 +1,68 @@
+### List all messages
+
+
+
+GET http://localhost:3000/books
+
+
+### Creating  messages
+ 
+
+POST http://localhost:3000/books
+Content-Type: application/json 
+
+ 
+  {
+    "name": "1984",
+    "author": "George Orwell",
+    "price": 999
+  }
+
+### \updating  messages
+
+
+ PUT  http://localhost:3000/books/e59a4d31-d6d3-4ec8-be9a-6f8194767a2a
+ Content-Type: application/json 
+
+
+{
+    
+    "price": "1200"
+    
+    
+}
+
+
+
+
+
+
+
+###get a particular id
+
+GET http://localhost:3000/books/e59a4d31-d6d3-4ec8-be9a-6f8194767a2a
+
+
+
+
+### deleting messages
+
+
+ DELETE   http://localhost:3000/books/e59a4d31-d6d3-4ec8-be9a-6f8194767a2a
+
+
+
+
+
+### Creating  messages
+ 
+
+POST http://localhost:3000/users
+Content-Type: application/json 
+
+ 
+  {
+    "email": "pranavat9948@gmail.com",
+    "password": "123456"
+    
+  }
